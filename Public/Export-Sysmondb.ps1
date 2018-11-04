@@ -1,5 +1,5 @@
 ﻿
-function Export-SysmonLogsDB {
+function Export-SysmonDB {
 <#
 .Synopsis
     Exports sysmon logs to a SQLite databaase
