@@ -3,7 +3,7 @@
 This module provides a way to export Sysmon Logs into a SQLite database with a seperate table for 
 each type ID
 
-##Functions
+## Functions
 
 For exporting there is:
 
@@ -20,6 +20,6 @@ For exporting there is:
   * You can get a list of these events with
      Get-WinEvent -ListProvider "Microsoft-Windows-Sysmon" ).Events | sort id | Select id,description |format-table -wrap
  
- ##Built With
+ ## Built With
  
  I use [PSSQLite](https://github.com/RamblingCookieMonster/PSSQLite) by @RamblingCookieMonster 
