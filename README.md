@@ -19,4 +19,7 @@ For exporting there is:
   * Creates a new SQLite database with seperate tables for each event type
   * You can get a list of these events with
      Get-WinEvent -ListProvider "Microsoft-Windows-Sysmon" ).Events | sort id | Select id,description |format-table -wrap
-	
+ 
+ ##Built With
+ 
+ I use [PSSQLite](https://github.com/RamblingCookieMonster/PSSQLite) by @RamblingCookieMonster 
